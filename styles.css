@@ -1,0 +1,46 @@
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    animation: box-move 3s 2s infinite forwards;
+}
+
+@keyframes box-move {
+    
+    0% {
+        position: absolute;
+        top: 30px;
+        left: 500px;
+        background-color: red;
+    }
+
+    25% {
+        position: absolute;
+        top: 200px;
+        left: 500px;
+        background-color: blue;
+    }
+
+    50% {
+        position: absolute;
+        top: 200px;
+        left: 800px;
+        background-color: green;
+    }
+
+    75% {
+        position: absolute;
+        top: 30px;
+        left: 800px;
+        background-color: yellow;
+    }
+
+    100% {
+        position: absolute;
+        top: 30px;
+        left: 500px;
+        background-color: red;
+    }
+}
